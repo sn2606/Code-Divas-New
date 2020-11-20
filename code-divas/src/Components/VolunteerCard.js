@@ -6,7 +6,7 @@ import './VolunteerCard.css';
 function VolunteerCard() {
     return (
         <div class="container">
-            <center><p style={{fontStyle:"oblique"}}><h1>Volunteers for Teaching</h1></p></center>
+            <center><p className="mt-10 text-black text-2xl"><h1>Volunteers for Teaching</h1></p></center>
             <div class="cards">
                 <div class="card">
 			        <span class="card-header" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZSLT-61CU0giag1XifMYFhaCV_u7rHbsnw&usqp=CAU)"}}>
@@ -70,7 +70,7 @@ function VolunteerCard() {
 		        </div>
             </div>
             <hr />
-            <center><p style={{fontStyle:"oblique"}}><h1>Volunteers for Assissting NGO's</h1></p></center>
+            <center><p className="text-black text-2xl"><h1>Volunteers for Assissting NGOs</h1></p></center>
             <div class="cards">
                 <div class="card">
 			        <span class="card-header" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_TYyQwXo-faEFvsKb9MDnsou47BwjFkfqCw&usqp=CAU)"}}>
@@ -104,7 +104,7 @@ function VolunteerCard() {
 		        </div>
             </div>
             <hr />
-            <center><p style={{fontStyle:"oblique"}}><h1>Interested in Volunteering? <br /></h1><h3>Send us your details and get READY..!!</h3></p></center>
+            <center><h1 className="text-black text-2xl">Interested in Volunteering? <br /></h1><h3 className="mb-7 text-black text-lg">Send us your details and get READY..!!</h3></center>
         </div>
     )
 }
