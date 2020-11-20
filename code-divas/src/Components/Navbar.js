@@ -28,7 +28,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
+        <div className='navbar-container mr-5'>
           <img className="logo" src={logo} alt="empowered-logo"/>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             EMPOWERED
@@ -66,7 +66,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Volunteer/Donate
+                Volunteer
               </Link>
             </li>
 
