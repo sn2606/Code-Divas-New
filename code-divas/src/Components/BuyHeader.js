@@ -2,8 +2,11 @@ import React from 'react';
 import './BuyHeader.css';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import { Link } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 
 function BuyHeader() {
+    const [ {basket}, dispatch] =useStateValue();
     return (
         <div className="header">
             { /* Logo */ }
@@ -18,8 +21,8 @@ function BuyHeader() {
                 </div>
                 <div className="header_optionBasket">
                     <ShoppingCartIcon />
-                    <span className="header_optionLineTwo">Your Cart </span>
-                    <span className="header_optionLineTwo header_basketCount">0</span>
+                    <Link to='/yourcart' className="header_optionLineTwo">Your Cart </Link>
+                    <span className="header_optionLineTwo header_basketCount">{basket?.length}</span>
                     
                 </div>
             </div>
