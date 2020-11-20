@@ -6,6 +6,7 @@ import Home from './Components/pages/Home';
 import Buy from './Components/pages/Buy';
 import YourCart from './Components/pages/YourCart';
 import Volunteer from './Components/pages/Volunteer';
+import Hire from './Components/pages/Hire';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/buy' exact component={Buy} />
         <Route path='/yourcart' exact component={YourCart} />
         <Route path='/volunteer' exact component={Volunteer} />
+        <Route path='/hire' exact component={Hire} />
       </Switch>
       </Router>
 

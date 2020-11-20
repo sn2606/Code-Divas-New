@@ -29,6 +29,12 @@
     display: flex;
     align-items: center;
   }
+
+  .logo {
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+  }
   
   .fa-typo3 {
     margin-left: 0.5rem;

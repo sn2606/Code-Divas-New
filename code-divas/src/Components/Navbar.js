@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from './images/logo.png'
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -28,6 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+          <img className="logo" src={logo} alt="empowered-logo"/>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             EMPOWERED
           </Link>
