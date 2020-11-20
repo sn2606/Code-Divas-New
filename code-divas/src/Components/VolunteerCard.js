@@ -15,12 +15,12 @@ function VolunteerCard() {
 				        </span>
 			        </span>
 			        <span class="card-summary">
-				        Email: amritasin123@gmail.com <br />
-                        PhNumber: +91-909045128 <br />
-                        Working days: 4 <br />
-                        Working hours: 6 <br />
-                        Working experience: 3+ <br />
-                        Expertise: Hindi <br />
+				        Email: amritasin123@gmail.com <br /> <br />
+                        PhNumber: +91-909045128 <br /> <br />
+                        Working days: 4 <br /> <br />
+                        Working hours: 6 <br /> <br />
+                        Working experience: 3+ <br /> <br />
+                        Expertise: Hindi <br /> <br />
 			        </span>
 		        </div>
                 <div class="card">
@@ -30,12 +30,12 @@ function VolunteerCard() {
 				        </span>
 			        </span>
 			        <span class="card-summary">
-				        Email: Kaustubhsen@gmail.com <br />
-                        PhNumber: +91-8932165128 <br />
-                        Working days: 7 <br />
-                        Working hours: 2 <br />
-                        Working experience: 1 <br />
-                        Expertise: English <br />
+				        Email: Kaustubhsen@gmail.com <br /> <br />
+                        PhNumber: +91-893216518 <br /><br />
+                        Working days: 7 <br /><br />
+                        Working hours: 2 <br /><br />
+                        Working experience: 1 <br /><br />
+                        Expertise: English <br /><br />
 			        </span>
 		        </div>
                 <div class="card">
@@ -45,12 +45,12 @@ function VolunteerCard() {
 				        </span>
 			        </span>
 			        <span class="card-summary">
-				        Email: anshika13@gmail.com <br />
-                        PhNumber: +91-959048888 <br />
-                        Working days: 2 <br />
-                        Working hours: 7 <br />
-                        Working experience: 8 <br />
-                        Expertise: Geography <br />
+				        Email: anshika13@gmail.com <br /><br />
+                        PhNumber: +91-95904888 <br /><br />
+                        Working days: 2 <br /><br />
+                        Working hours: 7 <br /><br />
+                        Working experience: 8 <br /><br />
+                        Expertise: Geography <br /><br />
 			        </span>
 		        </div>
                 <div class="card">
@@ -60,12 +60,12 @@ function VolunteerCard() {
 				        </span>
 			        </span>
 			        <span class="card-summary">
-				        Email: swaranjana12@gmail.com <br />
-                        PhNumber: +91-999045767 <br />
-                        Working days: 6 <br />
-                        Working hours: 3 <br />
-                        Working experience: 2 <br />
-                        Expertise: History <br />
+				        Email: swaranjana12@gmail.com <br /><br />
+                        PhNumber: +91-999044767 <br /><br />
+                        Working days: 6 <br /><br />
+                        Working hours: 3 <br /><br />
+                        Working experience: 2 <br /><br />
+                        Expertise: History <br /><br />
 			        </span>
 		        </div>
             </div>
@@ -79,12 +79,12 @@ function VolunteerCard() {
 				        </span>
 			        </span>
 			        <span class="card-summary">
-				        Email: kaushiki31@gmail.com <br />
-                        Contact Number: +91-908888128 <br />
-                        Working days: 3 <br />
-                        Working hours: 3 <br />
-                        Working experience: 5 <br />
-                        Expertise: Hindi <br />
+				        Email: kaushiki31@gmail.com <br /><br />
+                        Contact Number: +91-908888128 <br /><br />
+                        Working days: 3 <br /><br />
+                        Working hours: 3 <br /><br />
+                        Working experience: 5 <br /><br />
+                        Expertise: Hindi <br /><br />
 			        </span>
 		        </div>
                 <div class="card">
@@ -94,12 +94,12 @@ function VolunteerCard() {
 				        </span>
 			        </span>
 			        <span class="card-summary">
-				        Email: mansisin@gmail.com <br />
-                        Contact Number: +91-888845128 <br />
-                        Working days: 2 <br />
-                        Working hours: 12 <br />
-                        Working experience: 10 <br />
-                        Expertise: English <br />
+				        Email: mansisin@gmail.com <br /><br />
+                        Contact Number: +91-888845128 <br /><br />
+                        Working days: 2 <br /><br />
+                        Working hours: 12 <br /><br />
+                        Working experience: 10 <br /><br />
+                        Expertise: English <br /><br />
 			        </span>
 		        </div>
             </div>
