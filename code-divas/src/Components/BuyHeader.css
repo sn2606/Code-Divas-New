@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     background-color: brown;
-    position: sticky;
-    top: 0;
+    position: fixed;
     z-index: 100;
+    width: 100%;
    }
    
    .header_logo {

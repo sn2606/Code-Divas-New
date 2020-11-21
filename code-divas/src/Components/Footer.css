@@ -49,11 +49,11 @@
     max-width: 1000px;
     display: flex;
     justify-content: center;
+    margin: auto;
   }
   
   .footer-link-wrapper {
     display: flex;
-    margin-left: auto;
   }
   
   .footer-link-items {
@@ -72,6 +72,7 @@
   
   .footer-link-items > h2 {
     color: #fff;
+    border-bottom: 1px solid #fff;
   }
   
   .footer-link-items a {
