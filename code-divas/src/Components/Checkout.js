@@ -11,7 +11,7 @@ function Checkout() {
         <div className="checkout">
             <div className="checkout_left">
                 <div>
-                    <h2 className="checkout_title">Your Shopping Basket</h2>
+                    <h2 className="checkout_title text-lg">Your Shopping Basket</h2>
                     
                     {basket.map( item => (
                         <CheckoutProduct 

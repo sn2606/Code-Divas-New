@@ -6,11 +6,11 @@
 }
 
 .checkout_title {
-    margin-right: 5px;
+    margin-right: auto;
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
 
 .checkout_right{
-    margin-left: 1000px;
+    margin-left: auto;
 }
