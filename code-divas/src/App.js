@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './App.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -11,10 +11,19 @@ import Footer from './Components/Footer';
 import Signup from './Components/Signup';
 
 function App() {
+  let languageStoredInLocalStorage = localStorage.getItem("language");
+  let [language, setLanguage] = useState(
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
+  );
   return (
     <>
     <Router>
-      <Navbar />
+      <Navbar 
+       language={language}
+       handleSetLanguage={language => {
+         setLanguage(language);
+         storeLanguageInLocalStorage(language);
+       }} />
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/buy' exact component={Buy} />
@@ -28,6 +37,10 @@ function App() {
 
     </>
   );
+}
+
+function storeLanguageInLocalStorage(language) {
+  localStorage.setItem("language", language);
 }
 
 export default App;

@@ -4,7 +4,7 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar(props) {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -33,6 +33,16 @@ function Navbar() {
             <img className="logo mr-3" src={logo} alt="empowered-logo" />
             EMPOWERED
           </Link>
+          <div className="language-select m-10">
+          <select
+            className="custom-select"
+            value={props.language}
+            onChange={e => props.handleSetLanguage(e.target.value)}
+          >
+            <option value="English">English</option>
+            <option value="Malayalam">Malayalam</option>
+          </select>
+        </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"} />
           </div>
