@@ -1,16 +1,18 @@
 import React from "react";
 import "./Hire.css";
+import { Button } from "./Button";
 import womanImg from "./images/woman.png";
 import locationImg from "./images/location.png";
 import timeImg from "./images/time.png";
 
 function renderContact(contactArray) {
-  if (contactArray.length === 1) {
-    return <p className="text-sm">&#x260F; {contactArray[0]}</p>;
-  } else if (contactArray.length === 2) {
+  // if (contactArray.length === 1) {
+  //   return <p className="text-sm">&#x260F; {contactArray[0]}</p>;
+  // } else 
+  if (contactArray.length === 2) {
     return (
       <p className="text-sm">
-        &#x260F; {contactArray[0]} <br />
+        {/* &#x260F; {contactArray[0]} <br /> */}
         &#x2709; {contactArray[1]}
       </p>
     );
@@ -43,7 +45,10 @@ const SkillComponent = ({ skill }) => (
       <p className="cardInfo text-sm">
         {skill.locationCity}, {skill.locationState}
       </p>
+      <br />
       {renderContact(skill.contact)}
+      <button className="bg-red-400 m-2 p-1 pl-2 pr-2 rounded-full text-sm hover:bg-red-600">Send SMS</button>
+
     </div>
     <div className="flex flex-wrap items-center justify-center ml-auto">
       {skill.skills
