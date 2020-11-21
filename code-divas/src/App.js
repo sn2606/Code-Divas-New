@@ -8,6 +8,7 @@ import YourCart from './Components/pages/YourCart';
 import Volunteer from './Components/pages/Volunteer';
 import Hire from './Components/pages/Hire';
 import Footer from './Components/Footer';
+import Signup from './Components/Signup';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/yourcart' exact component={YourCart} />
         <Route path='/volunteer' exact component={Volunteer} />
         <Route path='/hire' exact component={Hire} />
+        <Route path='/sign-up' exact component={Signup} />
       </Switch>
       <Footer />
       </Router>
