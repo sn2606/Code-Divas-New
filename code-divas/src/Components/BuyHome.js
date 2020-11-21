@@ -12,7 +12,7 @@ function BuyHome() {
     return (
         <div className="home">
           <div className="home_container">
-          <div className="home_row">
+          <div className="home_row mt-20">
             <Product title='Flower Vase' price={199} image={img1} rating={5} />
             <Product title='Bamboo Bag' price={399} image={img2} rating={3}/>
           </div>
