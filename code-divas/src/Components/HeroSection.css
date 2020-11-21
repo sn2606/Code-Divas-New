@@ -22,7 +22,7 @@
     width: 70%;
     position: relative;
     margin-right: 5%;
-    /*margin-top: 50px;*/
+    line-height: normal;
   }
   
   .hero-content > p {
@@ -36,6 +36,7 @@
     font-family: 'Merriweather', serif;
     font-weight: 100;
     width: 50%;
+    line-height: normal;
   }
   
   .hero-btns {

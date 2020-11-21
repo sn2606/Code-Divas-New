@@ -9,7 +9,7 @@ function HeroSection() {
         <div className="hero-container"> 
 
         <div className="hero-content ">
-           <h1 className="p-10 pb-2">EMPOWERED EACHDAY, EVERYDAY!</h1> 
+           <h1 className="p-10">EMPOWERED EACHDAY, EVERYDAY!</h1> 
 
            <p className="justify-center p-10 pt-0">Our project aims to help empower women who do not have conventional/formal education,
             are housewives that are completely dependent on their significant other, or belong to the economically deprived classes.
